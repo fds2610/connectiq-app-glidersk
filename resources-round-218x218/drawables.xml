@@ -1,32 +1,32 @@
 <!-- -*- mode:xml; tab-width:2; c-basic-offset:2; intent-tabs-mode:nil; -*- ex: set tabstop=2 expandtab: -->
 <drawables>
-  <bitmap id="AppIcon" filename="../resources/drawables/launcher-40x40.png" />
-  <drawable-list id="drawHeaderAccuracy1" x="109" y="17" width="4" height="8" >
+  <bitmap id="AppIcon" filename="../resources/drawables/launcher-36x36.png" />
+  <drawable-list id="drawHeaderAccuracy1" x="99" y="15" width="4" height="7" >
     <shape type="rectangle" x="0" y="0" width="fill" height="fill" />
   </drawable-list>
-  <drawable-list id="drawHeaderAccuracy2" x="115" y="13" width="4" height="12" >
+  <drawable-list id="drawHeaderAccuracy2" x="104" y="12" width="4" height="11" >
     <shape type="rectangle" x="0" y="0" width="fill" height="fill" />
   </drawable-list>
-  <drawable-list id="drawHeaderAccuracy3" x="121" y="9" width="4" height="16" >
+  <drawable-list id="drawHeaderAccuracy3" x="110" y="8" width="4" height="15" >
     <shape type="rectangle" x="0" y="0" width="fill" height="fill" />
   </drawable-list>
-  <drawable-list id="drawHeaderAccuracy4" x="127" y="5" width="4" height="20" >
+  <drawable-list id="drawHeaderAccuracy4" x="115" y="5" width="4" height="18" >
     <shape type="rectangle" x="0" y="0" width="fill" height="fill" />
   </drawable-list>
-  <drawable-list id="drawContentBorders" x="0" y="29" width="fill" height="182" >
+  <drawable-list id="drawContentBorders" x="0" y="26" width="fill" height="165" >
     <shape type="rectangle" x="0" y="0" width="fill" height="2" color="Gfx.COLOR_LT_GRAY" />
-    <shape type="rectangle" x="0" y="180" width="fill" height="2" color="Gfx.COLOR_LT_GRAY" />
+    <shape type="rectangle" x="0" y="164" width="fill" height="2" color="Gfx.COLOR_LT_GRAY" />
   </drawable-list>
-  <drawable-list id="drawFieldsBackground" x="0" y="31" width="fill" height="178" >
+  <drawable-list id="drawFieldsBackground" x="0" y="28" width="fill" height="162" >
     <shape type="rectangle" x="0" y="0" width="fill" height="fill" />
   </drawable-list>
-  <drawable-list id="drawFieldsBorders" x="0" y="29" width="fill" height="182" >
-    <shape type="rectangle" x="0" y="60" width="fill" height="2" color="Gfx.COLOR_LT_GRAY" />
-    <shape type="rectangle" x="0" y="120" width="fill" height="2" color="Gfx.COLOR_LT_GRAY" />
-    <shape type="rectangle" x="119" y="2" width="2" height="58" color="Gfx.COLOR_LT_GRAY" />
-    <shape type="rectangle" x="89" y="62" width="2" height="58" color="Gfx.COLOR_LT_GRAY" />
-    <shape type="rectangle" x="149" y="62" width="2" height="58" color="Gfx.COLOR_LT_GRAY" />
-    <shape type="rectangle" x="119" y="122" width="2" height="58" color="Gfx.COLOR_LT_GRAY" />
+  <drawable-list id="drawFieldsBorders" x="0" y="26" width="fill" height="165" >
+    <shape type="rectangle" x="0" y="55" width="fill" height="2" color="Gfx.COLOR_LT_GRAY" />
+    <shape type="rectangle" x="0" y="109" width="fill" height="2" color="Gfx.COLOR_LT_GRAY" />
+    <shape type="rectangle" x="119" y="2" width="2" height="53" color="Gfx.COLOR_LT_GRAY" />
+    <shape type="rectangle" x="81" y="56" width="2" height="53" color="Gfx.COLOR_LT_GRAY" />
+    <shape type="rectangle" x="135" y="56" width="2" height="53" color="Gfx.COLOR_LT_GRAY" />
+    <shape type="rectangle" x="108" y="111" width="2" height="53" color="Gfx.COLOR_LT_GRAY" />
   </drawable-list>
   <drawable-list id="drawGlobalAlertLeft" x="0" y="91" width="89" height="58" >
     <shape type="rectangle" x="0" y="0" width="fill" height="fill" />
