@@ -68,6 +68,14 @@ class MyViewSafety extends MyViewGlobal {
   // FUNCTIONS: Layout-specific
   //
 
+  (:layout_218x218)
+  function initLayout() as Void {
+    self.fLayoutCenter = 109.0f;
+    self.fLayoutBugR1 = 108.0f;
+    self.fLayoutBugR2 = 91.0f;
+    self.fLayoutBugR3 = 94.0f;
+  }
+
   (:layout_240x240)
   function initLayout() as Void {
     self.fLayoutCenter = 120.0f;

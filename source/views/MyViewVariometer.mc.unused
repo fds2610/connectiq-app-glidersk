@@ -54,6 +54,21 @@ class MyViewVariometer extends MyView {
   // FUNCTIONS: Layout-specific
   //
 
+  (:layout_218x218)
+  function initLayout() as Void {
+    self.iLayoutCenter = 109;
+    self.iLayoutValueR = 55;
+    self.iLayoutCacheX = 91;
+    self.iLayoutCacheR = 82;
+    self.iLayoutBatteryY = 134;
+    self.iLayoutActivityY = 68;
+    self.iLayoutTimeY = 147;
+    self.iLayoutAltitudeY = 38;
+    self.iLayoutValueY = 75;
+    self.iLayoutUnitX = 193;
+    self.iLayoutUnitY = 95;
+  }
+
   (:layout_240x240)
   function initLayout() as Void {
     self.iLayoutCenter = 120;
@@ -268,16 +283,20 @@ class MyViewVariometerDelegate extends MyViewGlobalDelegate {
 
   function onPreviousPage() {
     //Sys.println("DEBUG: MyViewVariometerDelegate.onPreviousPage()");
-    Ui.switchToView(new MyViewRateOfTurn(),
-                    new MyViewRateOfTurnDelegate(),
+    Ui.switchToView(new MyViewVariometer(),
+                    new MyViewVariometerDelegate(),
+//    Ui.switchToView(new MyViewVarioplot(),
+//                    new MyViewVarioplotDelegate(),
+//    Ui.switchToView(new MyViewRateOfTurn(),
+//                    new MyViewRateOfTurnDelegate(),
                     Ui.SLIDE_IMMEDIATE);
     return true;
   }
 
   function onNextPage() {
     //Sys.println("DEBUG: MyViewVariometerDelegate.onNextPage()");
-    Ui.switchToView(new MyViewVarioplot(),
-                    new MyViewVarioplotDelegate(),
+    Ui.switchToView(new MyViewVariometer(),
+                    new MyViewVariometerDelegate(),
                     Ui.SLIDE_IMMEDIATE);
     return true;
   }

@@ -242,18 +242,26 @@ class MyViewGeneralDelegate extends MyViewGlobalDelegate {
 
   function onPreviousPage() {
     //Sys.println("DEBUG: MyViewGeneralDelegate.onPreviousPage()");
-    Ui.switchToView(new MyViewTimers(),
-                    new MyViewTimersDelegate(),
-                    Ui.SLIDE_IMMEDIATE);
+//    Ui.switchToView(new MyViewVariometer(),
+//                    new MyViewVariometerDelegate(),
+//                    Ui.SLIDE_IMMEDIATE);
     return true;
   }
 
   function onNextPage() {
-    //Sys.println("DEBUG: MyViewGeneralDelegate.onNextPage()");
-    Ui.switchToView(new MyViewSafety(),
-                    new MyViewSafetyDelegate(),
-                    Ui.SLIDE_IMMEDIATE);
+    //Sys.println("DEBUG: MyViewGeneralDelegate.onPreviousPage()");
+//    Ui.switchToView(new MyViewVariometer(),
+//                    new MyViewVariometerDelegate(),
+//                    Ui.SLIDE_IMMEDIATE);
     return true;
   }
+
+//  function onNextPage() {
+    //Sys.println("DEBUG: MyViewGeneralDelegate.onNextPage()");
+//    Ui.switchToView(new MyViewSafety(),
+//                    new MyViewSafetyDelegate(),
+//                    Ui.SLIDE_IMMEDIATE);
+//    return true;
+//  }
 
 }

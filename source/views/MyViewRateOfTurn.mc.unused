@@ -53,6 +53,20 @@ class MyViewRateOfTurn extends MyView {
   // FUNCTIONS: Layout-specific
   //
 
+  (:layout_218x218)
+  function initLayout() as Void {
+    self.iLayoutCenter = 109;
+    self.iLayoutValueR = 55;
+    self.iLayoutCacheY = 91;
+    self.iLayoutCacheR = 82;
+    self.iLayoutBatteryY = 116;
+    self.iLayoutActivityY = 50;
+    self.iLayoutTimeY = 129;
+    self.iLayoutHeadingY = 20;
+    self.iLayoutValueY = 57;
+    self.iLayoutUnitY = 182;
+  }
+
   (:layout_240x240)
   function initLayout() as Void {
     self.iLayoutCenter = 120;
@@ -267,8 +281,10 @@ class MyViewRateOfTurnDelegate extends MyViewGlobalDelegate {
 
   function onPreviousPage() {
     //Sys.println("DEBUG: MyViewRateOfTurnDelegate.onPreviousPage()");
-    Ui.switchToView(new MyViewSafety(),
-                    new MyViewSafetyDelegate(),
+    Ui.switchToView(new MyViewVariometer(),
+                    new MyViewVariometerDelegate(),
+//    Ui.switchToView(new MyViewSafety(),
+//                    new MyViewSafetyDelegate(),
                     Ui.SLIDE_IMMEDIATE);
     return true;
   }

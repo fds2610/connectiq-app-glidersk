@@ -63,6 +63,18 @@ class MyViewVarioplot extends MyViewHeader {
   // FUNCTIONS: Layout-specific
   //
 
+  (:layout_218x218)
+  function initLayout() as Void {
+    self.iLayoutCenter = 109;
+    self.iLayoutClipY = 28;
+    self.iLayoutClipW = 218;
+    self.iLayoutClipH = 162;
+    self.iLayoutValueXleft = 36;
+    self.iLayoutValueXright = 182;
+    self.iLayoutValueYtop = 27;
+    self.iLayoutValueYbottom = 174;
+  }
+
   (:layout_240x240)
   function initLayout() as Void {
     self.iLayoutCenter = 120;

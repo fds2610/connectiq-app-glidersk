@@ -334,8 +334,10 @@ class MyViewLogDelegate extends MyViewGlobalDelegate {
 
   function onPreviousPage() {
     //Sys.println("DEBUG: MyViewLogDelegate.onPreviousPage()");
-    Ui.switchToView(new MyViewVarioplot(),
-                    new MyViewVarioplotDelegate(),
+    Ui.switchToView(new MyViewTimers(),
+                    new MyViewTimersDelegate(),
+//    Ui.switchToView(new MyViewVarioplot(),
+//                    new MyViewVarioplotDelegate(),
                     Ui.SLIDE_IMMEDIATE);
     return true;
   }
